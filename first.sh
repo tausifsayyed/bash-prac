@@ -1,9 +1,11 @@
 #!/bin/bash
 
 
-nem="thisisis"
+nem="This is a long string for testing"
 
-echo "$nem and ${#nem}"
+echo "$nem"
 
-if [ "nem" -gt 0 ] then echo "This is greater"
-f
+for n in $nem
+do
+	echo $n;
+done;
